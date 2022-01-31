@@ -57,11 +57,11 @@ tags:
   
   - 경우에 따라 횟수가 달라진다 (**Balanced Partitioning** vs **unbalanced Partitioning**)
   
-  - **Balanced Paritioning**
+  - **Balanced Partitioning**
     
     - 각 하위 문제가 기존 문제의 절반 크기로 나누어지는 경우  => logN
   
-  - **Unbalanced Paritioning**
+  - **Unbalanced Partitioning**
     
     - 매번 pivot 기준으로 정렬할 때 마다 1과 n-1개로 나누어지는 경우 => N
   
@@ -107,7 +107,7 @@ tags:
         temp[index++] = arr[s2++];
       }
     }
-    
+  
     while(s1<=mid){
       temp[index++] = arr[s1++];
     }
@@ -120,7 +120,4 @@ tags:
       arr[i] = temp[i];
     }
   }
-  
   ```
-
-
