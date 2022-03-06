@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Java) 큐로 스택 만들기
+title: (Java) Queue로 Stack 구현하기 
 tags:
   - 자료구조_알고리즘
 ---
@@ -44,18 +44,4 @@ tags:
         return queue.isEmpty();
     }
   }
-  ```
-
-/**
-
-* Your MyStack object will be instantiated and called as such:
-* MyStack obj = new MyStack();
-* obj.push(x);
-* int param_2 = obj.pop();
-* int param_3 = obj.top();
-* boolean param_4 = obj.empty();
-  */
-  
-  ```
-  
   ```
